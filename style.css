@@ -375,5 +375,13 @@ color: #000;
 }
 
 .margin{
-    margin-top: 25px;
+    margin-top: 40px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.gold{
+    color: #d39e01;
+    font-style: oblique;
 }
