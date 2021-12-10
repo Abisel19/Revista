@@ -181,7 +181,7 @@ header .container-fluid
 .hamburger
 {
     font-size: 2.3em;
-    color: black;
+    color: white;
 }
 
 .hamburger:hover
@@ -194,13 +194,31 @@ header .container-fluid
 {
     font-size: 2.3em;
     color: white;
+    
 }
-
+@media (max-width: 990px) {
+    .hamburger2 {
+      color: black; 
+    }
+    .number-galeria{
+        margin-top: 4%;
+    }
+    .number-opinion{
+        margin-top: 4%;
+    }
+    .number-social{
+        margin-top: 4%;
+    }
+    .number-entretenimiento{
+        margin-top: 4%;
+    }
+  }
 .hamburger2:hover
 {
   color: gray;
   cursor: pointer;
 }
+
 
 .logo
 {
@@ -236,9 +254,32 @@ header .container-fluid
 	SECTIONS
 \*------------------------------------*/
 
-.number .container-fluid
+
+.number-social .container-fluid
 {
     background-image: url('https://unsplash.it/3000/2000?image=685');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.number-opinion .container-fluid
+{
+    background-image: url('./images/opinion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.number-entretenimiento .container-fluid
+{
+    background-image: url('./images/entretenimiento.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.number-galeria .container-fluid
+{
+    background-image: url('./images/galería.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,7 +289,7 @@ header .container-fluid
 {
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: rgba(239, 184, 16, 0.660);
+    background-color: rgba(239, 184, 16, 0.50);
 }
 
 .opaline h1,
@@ -277,7 +318,7 @@ header .container-fluid
 
 .story .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=531');
+    background-image: url('./images/galería.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -350,6 +391,11 @@ footer p
     background-color: #000;
     color: white;
 }
+.btn-white:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px;
+}
 .rounded{
     border-radius: 2%;
 }
@@ -368,10 +414,10 @@ color: #000;
     margin-top: -10%;
 }
 .img-articulo{
-    width: 100%;
-    height: 300px;
-    margin-top: 35px;
-    margin-left: -40px;
+    width: 90%;
+    height: 120%;
+    margin-left: 7%;
+    margin-top: 2%;
 }
 
 .margin{
@@ -384,4 +430,12 @@ color: #000;
 .gold{
     color: #d39e01;
     font-style: oblique;
+}
+.black{
+    background-color: #f1ece4;
+}
+.galeria1{
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
 }
