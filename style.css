@@ -257,7 +257,7 @@ header .container-fluid
 
 .number-social .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=685');
+    background-image: url('./images/social.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -289,7 +289,7 @@ header .container-fluid
 {
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: rgba(239, 184, 16, 0.50);
+    background-color: rgba(239, 184, 16, 0.60);
 }
 
 .opaline h1,
@@ -439,3 +439,13 @@ color: #000;
     height: 100%;
     margin-top: -5%;
 }
+
+
+
+
+
+
+
+
+
+
